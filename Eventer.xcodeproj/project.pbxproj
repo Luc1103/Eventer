@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,21 @@
 		680B6763248D6D2D007E0A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680B6761248D6D2D007E0A8F /* Main.storyboard */; };
 		680B6765248D6D2E007E0A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680B6764248D6D2E007E0A8F /* Assets.xcassets */; };
 		680B6768248D6D2E007E0A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680B6766248D6D2E007E0A8F /* LaunchScreen.storyboard */; };
+		68273387248EADB900FB8ECE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68273386248EADB900FB8ECE /* Person.swift */; };
+		68273389248EADFF00FB8ECE /* EventDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68273388248EADFF00FB8ECE /* EventDate.swift */; };
+		6827338B248EAE0900FB8ECE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827338A248EAE0900FB8ECE /* Event.swift */; };
+		6827338D248EB00B00FB8ECE /* DateParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827338C248EB00B00FB8ECE /* DateParticipant.swift */; };
+		6827338F24905D1D00FB8ECE /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827338E24905D1D00FB8ECE /* SwipeTableViewController.swift */; };
+		68273391249070B500FB8ECE /* DateParticipantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68273390249070B500FB8ECE /* DateParticipantViewController.swift */; };
+		68273393249090B800FB8ECE /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68273392249090B800FB8ECE /* DateTableViewController.swift */; };
+		68273395249090D500FB8ECE /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68273394249090D500FB8ECE /* PersonViewController.swift */; };
+		68397E7524AEE6D90002F071 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68397E7424AEE6D90002F071 /* HistoryTableViewController.swift */; };
+		68397E7724B032D00002F071 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68397E7624B032D00002F071 /* Transaction.swift */; };
+		A9FE6E1822A24D168EBBA55B /* Pods_Eventer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8934346A2D7265D9EB77E6 /* Pods_Eventer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		298DBCC0354746A9ED0C68BC /* Pods-Eventer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventer.debug.xcconfig"; path = "Target Support Files/Pods-Eventer/Pods-Eventer.debug.xcconfig"; sourceTree = "<group>"; };
 		680B6758248D6D2D007E0A8F /* Eventer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680B675B248D6D2D007E0A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		680B675D248D6D2D007E0A8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,18 @@
 		680B6764248D6D2E007E0A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680B6767248D6D2E007E0A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		680B6769248D6D2E007E0A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68273386248EADB900FB8ECE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		68273388248EADFF00FB8ECE /* EventDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDate.swift; sourceTree = "<group>"; };
+		6827338A248EAE0900FB8ECE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		6827338C248EB00B00FB8ECE /* DateParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParticipant.swift; sourceTree = "<group>"; };
+		6827338E24905D1D00FB8ECE /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		68273390249070B500FB8ECE /* DateParticipantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParticipantViewController.swift; sourceTree = "<group>"; };
+		68273392249090B800FB8ECE /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
+		68273394249090D500FB8ECE /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		68397E7424AEE6D90002F071 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		68397E7624B032D00002F071 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		7A8934346A2D7265D9EB77E6 /* Pods_Eventer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6610646B25EEB1A67E2CA4A /* Pods-Eventer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventer.release.xcconfig"; path = "Target Support Files/Pods-Eventer/Pods-Eventer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FE6E1822A24D168EBBA55B /* Pods_Eventer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		605265092D9BCE87FBF1C3AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				298DBCC0354746A9ED0C68BC /* Pods-Eventer.debug.xcconfig */,
+				D6610646B25EEB1A67E2CA4A /* Pods-Eventer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		680B674F248D6D2D007E0A8F = {
 			isa = PBXGroup;
 			children = (
 				680B675A248D6D2D007E0A8F /* Eventer */,
 				680B6759248D6D2D007E0A8F /* Products */,
+				605265092D9BCE87FBF1C3AD /* Pods */,
+				91AA9F6C8164C5B844B31A35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,55 @@
 			children = (
 				680B675B248D6D2D007E0A8F /* AppDelegate.swift */,
 				680B675D248D6D2D007E0A8F /* SceneDelegate.swift */,
-				680B675F248D6D2D007E0A8F /* ViewController.swift */,
-				680B6761248D6D2D007E0A8F /* Main.storyboard */,
+				68273385248D891E00FB8ECE /* Models */,
+				68273383248D890800FB8ECE /* Views */,
+				68273381248D88DC00FB8ECE /* Controllers */,
 				680B6764248D6D2E007E0A8F /* Assets.xcassets */,
 				680B6766248D6D2E007E0A8F /* LaunchScreen.storyboard */,
 				680B6769248D6D2E007E0A8F /* Info.plist */,
 			);
 			path = Eventer;
+			sourceTree = "<group>";
+		};
+		68273381248D88DC00FB8ECE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				680B675F248D6D2D007E0A8F /* ViewController.swift */,
+				68273390249070B500FB8ECE /* DateParticipantViewController.swift */,
+				68273392249090B800FB8ECE /* DateTableViewController.swift */,
+				68273394249090D500FB8ECE /* PersonViewController.swift */,
+				68397E7424AEE6D90002F071 /* HistoryTableViewController.swift */,
+				6827338E24905D1D00FB8ECE /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68273383248D890800FB8ECE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				680B6761248D6D2D007E0A8F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68273385248D891E00FB8ECE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6827338A248EAE0900FB8ECE /* Event.swift */,
+				68273388248EADFF00FB8ECE /* EventDate.swift */,
+				6827338C248EB00B00FB8ECE /* DateParticipant.swift */,
+				68273386248EADB900FB8ECE /* Person.swift */,
+				68397E7624B032D00002F071 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91AA9F6C8164C5B844B31A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A8934346A2D7265D9EB77E6 /* Pods_Eventer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680B676C248D6D2E007E0A8F /* Build configuration list for PBXNativeTarget "Eventer" */;
 			buildPhases = (
+				154A4D1F19D9835C01F93281 /* [CP] Check Pods Manifest.lock */,
 				680B6754248D6D2D007E0A8F /* Sources */,
 				680B6755248D6D2D007E0A8F /* Frameworks */,
 				680B6756248D6D2D007E0A8F /* Resources */,
+				58DFDCA224EA1B546C9383E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +213,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154A4D1F19D9835C01F93281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eventer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DFDCA224EA1B546C9383E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eventer/Pods-Eventer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eventer/Pods-Eventer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eventer/Pods-Eventer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		680B6754248D6D2D007E0A8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6827338F24905D1D00FB8ECE /* SwipeTableViewController.swift in Sources */,
 				680B6760248D6D2D007E0A8F /* ViewController.swift in Sources */,
+				68273389248EADFF00FB8ECE /* EventDate.swift in Sources */,
 				680B675C248D6D2D007E0A8F /* AppDelegate.swift in Sources */,
+				68273387248EADB900FB8ECE /* Person.swift in Sources */,
+				68397E7724B032D00002F071 /* Transaction.swift in Sources */,
+				6827338B248EAE0900FB8ECE /* Event.swift in Sources */,
 				680B675E248D6D2D007E0A8F /* SceneDelegate.swift in Sources */,
+				68273395249090D500FB8ECE /* PersonViewController.swift in Sources */,
+				68397E7524AEE6D90002F071 /* HistoryTableViewController.swift in Sources */,
+				68273393249090B800FB8ECE /* DateTableViewController.swift in Sources */,
+				6827338D248EB00B00FB8ECE /* DateParticipant.swift in Sources */,
+				68273391249070B500FB8ECE /* DateParticipantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		680B676D248D6D2E007E0A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298DBCC0354746A9ED0C68BC /* Pods-Eventer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +433,7 @@
 		};
 		680B676E248D6D2E007E0A8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6610646B25EEB1A67E2CA4A /* Pods-Eventer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
